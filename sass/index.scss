@@ -1,0 +1,66 @@
+@import "./colors.scss";
+
+.hero-section {
+    background-image: url("https://images.pexels.com/photos/3076897/pexels-photo-3076897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 0 4rem 4rem;
+    height: 96vh;
+    margin-bottom: 4rem;
+    padding: 2rem;
+
+    .hero-content {
+        background-color: $white;
+        border-radius: 12px;
+        padding: 2rem;
+        text-align: center;
+        transform: translateY(160%);
+    }
+}
+
+// Bestsellers section
+#bestsellers-section {
+    text-align: center;
+
+    h1 {
+        margin: auto;
+        width: fit-content;
+    }
+
+    button {
+        margin: 1rem;
+    }
+
+    #products-wrapper {
+        overflow-x: scroll;
+
+        #products-container {
+            display: flex;
+
+            .product-card {
+                padding: 0.4rem 1rem;
+                text-align: left;
+
+                .product-image {
+                    border-radius: 12px;
+                    height: 16rem;
+                    object-fit: cover;
+                    width: 16rem;
+                }
+
+                .product-description {
+
+                    h2 {
+                        font-size: 1.4rem;
+                        margin: 0;
+                    }
+
+                    h3 {
+                        font-size: 1.2rem;
+                        opacity: 0.6;
+                    }
+                }
+            }
+        }
+    }
+}

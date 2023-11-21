@@ -1,0 +1,115 @@
+@import "./colors.scss";
+
+body {
+    background-color: $white;
+    color: $black;
+}
+
+// Scrollbar
+::-webkit-scrollbar {
+    width: 12px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: $primary;
+}
+
+// Top nav bar elements
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#header-actions-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 10px;
+}
+
+.sign-out-button {
+    background-color: #DB7E6610;
+    padding: 0.4rem 1rem;
+}
+
+.sign-out-button a {
+    color: $primary;
+    text-decoration: none;
+}
+
+.sign-out-button:hover {
+    background-color: #DB7E6630;
+}
+
+// Footer elements
+footer {
+    background-color: $tertiary;
+    border-radius: 4rem 4rem 0 0;
+    color: $white;
+    padding: 1rem 1rem;
+    width: 100%;
+}
+
+footer h1 {
+    font-size: 1.4rem;
+    margin: 1rem auto;
+    width: fit-content;
+}
+
+footer p {
+    margin: auto;
+    width: fit-content;
+}
+
+#social-media-link-container {
+    transform: translateX(-14px);
+    margin: auto;
+    width: fit-content;
+}
+
+#social-media-link-container li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#social-media-link-container li a {
+    color: $white;
+    font-size: 1.6rem;
+    margin: auto 1rem auto 1rem;
+}
+
+#social-media-link-container li a:hover {
+    color: $secondary;
+}
+
+#footer-navigation {
+    margin: auto;
+    width: fit-content;
+}
+
+#navigation-link-container {
+    margin: auto;
+    width: fit-content;
+}
+
+#navigation-link-container li {
+    list-style-type: none;
+    text-align: center;
+    transform: translateX(-16px);
+}
+
+#navigation-link-container li a {
+    color: $white;
+    text-decoration: none;
+}
+
+#navigation-link-container li a:hover {
+    color: $secondary;
+}

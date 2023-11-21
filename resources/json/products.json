@@ -1,0 +1,36 @@
+{
+    "products": [
+        {
+            "name": "Subtle Speckles",
+            "price": 79.99,
+            "description": "This plant pot is ceramic painted white. The imprints on the plant pot are created by pressing local foliage against the wet clay.",
+            "image": "https://cdn.pixabay.com/photo/2022/08/05/18/50/houseplant-7367379_960_720.jpg",
+            "image_description": "White plant pot covered with leaf shape indents",
+            "is_bestseller": true
+        },
+        {
+            "name": "Plant Pot 2",
+            "price": 79.99,
+            "description": "This plant pot is ceramic painted white. The imprints on the plant pot are created by pressing local foliage against the wet clay.",
+            "image": "https://cdn.pixabay.com/photo/2022/08/05/18/50/houseplant-7367379_960_720.jpg",
+            "image_description": "White plant pot covered with leaf shape indents",
+            "is_bestseller": true
+        },
+        {
+            "name": "Plant Pot 3",
+            "price": 79.99,
+            "description": "This plant pot is ceramic painted white. The imprints on the plant pot are created by pressing local foliage against the wet clay.",
+            "image": "https://cdn.pixabay.com/photo/2022/08/05/18/50/houseplant-7367379_960_720.jpg",
+            "image_description": "White plant pot covered with leaf shape indents",
+            "is_bestseller": true
+        },
+        {
+            "name": "Plant Pot 4",
+            "price": 79.99,
+            "description": "This plant pot is ceramic painted white. The imprints on the plant pot are created by pressing local foliage against the wet clay.",
+            "image": "https://cdn.pixabay.com/photo/2022/08/05/18/50/houseplant-7367379_960_720.jpg",
+            "image_description": "White plant pot covered with leaf shape indents",
+            "is_bestseller": true
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+.hero-section {
+  background-image: url("https://images.pexels.com/photos/3076897/pexels-photo-3076897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: center;
+  background-size: cover;
+  border-radius: 0 0 4rem 4rem;
+  height: 96vh;
+  margin-bottom: 4rem;
+  padding: 2rem;
+}
+.hero-section .hero-content {
+  background-color: #FBF6F4;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  transform: translateY(160%);
+}
+
+#bestsellers-section {
+  text-align: center;
+}
+#bestsellers-section h1 {
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#bestsellers-section button {
+  margin: 1rem;
+}
+#bestsellers-section #products-wrapper {
+  overflow-x: scroll;
+}
+#bestsellers-section #products-wrapper #products-container {
+  display: flex;
+}
+#bestsellers-section #products-wrapper #products-container .product-card {
+  padding: 0.4rem 1rem;
+  text-align: left;
+}
+#bestsellers-section #products-wrapper #products-container .product-card .product-image {
+  border-radius: 12px;
+  height: 16rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 16rem;
+}
+#bestsellers-section #products-wrapper #products-container .product-card .product-description h2 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+#bestsellers-section #products-wrapper #products-container .product-card .product-description h3 {
+  font-size: 1.2rem;
+  opacity: 0.6;
+}/*# sourceMappingURL=index.css.map */
