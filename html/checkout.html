@@ -141,8 +141,8 @@
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <label for="cc-number" class="form-label">Credit card number *</label>
-                                <input type="text" class="form-control" id="cc-number" required>
+                                <label for="cc-number" class="form-label">Card number *</label>
+                                <input type="text" class="form-control" id="cc-number" required pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$" title=" Enter a valid debit card number starting with '4' for Visa or '5' for MasterCard, with a total of 13 to 16 digits">
                                 <div class="invalid-feedback">
                                     Credit card number is required
                                 </div>
@@ -150,14 +150,14 @@
                             <div class="col-md-6">
                                 <label for="cc-expiration" class="form-label">Expiration *</label>
                                 <input type="text" class="form-control" id="cc-expiration" placeholder="MM/YY"
-                                    required>
+                                    required pattern="^(0[1-9]|1[0-2])\/[0-9]{2}$">
                                 <div class="invalid-feedback">
                                     Expiration date required
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <label for="cc-cvv" class="form-label">CVV *</label>
-                                <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                                <input type="text" class="form-control" id="cc-cvv" placeholder="" required pattern="^\d{3}$" title=" 3 digits on the back of you card">
                                 <div class="invalid-feedback">
                                     Security code required
                                 </div>

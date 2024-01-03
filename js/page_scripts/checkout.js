@@ -7,6 +7,7 @@ import { FetchProductById } from "../database/products.js";
     PopulateCountySelect();
     PopulateCartItems();
 
+    document.getElementById('checkout-button').addEventListener('click', ClearCart, false);
 }())
 
 function PopulateFormWithUserData() {
@@ -147,4 +148,8 @@ async function PopulateCartItems() {
     <span>Total</span>
     <strong>€${totalPrice.toFixed(2)}</strong>
   </li>`;
+}
+
+function ClearCart() {
+    sessionStorage.setItem('cart', '');
 }

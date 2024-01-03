@@ -126,7 +126,7 @@
                             <h2>Billing Information</h2>
                             <div class="mb-2">
                                 <label for="" class="form-label">Card Number</label>
-                                <input type="text" id="card_number" class="form-control">
+                                <input type="text" id="card_number" class="form-control" pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$">
                             </div>
                             <div class="row mb-2">
                                 <div class="col-12 col-md-6">
@@ -135,8 +135,8 @@
                                         class="form-control" title=" MM/YY" />
                                 </div>
                                 <div class="col-12 col-md-6">
-                                    <label for="" class="form-label">Security Code</label>
-                                    <input type="text" id="security_code" class="form-control">
+                                    <label for="" class="form-label">CVV</label>
+                                    <input type="text" id="security_code" class="form-control" pattern="^\d{3}$" title=" 3 digits on the back of you card">
                                 </div>
                             </div>
                             <div class="mb-2">
