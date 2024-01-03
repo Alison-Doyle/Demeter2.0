@@ -1,0 +1,38 @@
+main {
+    #item-details {
+        padding-top: 3.6rem;
+
+        // Mobile view
+        img {
+            border-radius: 0 0 2rem 2rem;
+            height: 50vh;
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+        }
+
+        #body-wrapper {
+            padding: 1rem 2rem;
+
+            button {
+                margin: 1rem auto;
+            }
+        }
+
+        // Desktop view
+        @media screen and (min-width: 768px) {
+            img {
+                border-radius: 2rem;
+                margin: 1rem 2rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+    }
+}

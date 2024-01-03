@@ -1,0 +1,74 @@
+[
+    {
+        "product_id": "PP001",
+        "product_name": "Terracotta Dream",
+        "description": "Enhance your home decor with the Terracotta Dream plant pot. Crafted from high-quality terracotta, this pot adds a touch of rustic charm to any space. Its earthy tones complement both indoor and outdoor plants, making it a versatile choice. The durable material ensures longevity, while the timeless design suits various plant varieties. Ideal for herbs, flowers, or succulents, the Terracotta Dream is a stylish and functional addition to your garden or living room. Bring nature indoors with this classic and elegant plant pot.",
+        "price": 24.99,
+        "image_url": "https://cdn.pixabay.com/photo/2021/03/22/11/40/bonsai-6114252_960_720.jpg",
+        "image_credits": "https://pixabay.com/users/luca_finardi-20706085/",
+        "bestseller": true
+    },
+    {
+        "product_id": "PP002",
+        "product_name": "Modern Minimalist Planter",
+        "description": "Introducing the Modern Minimalist Planter — a sleek and contemporary addition to your home. This plant pot combines clean lines with a minimalist aesthetic, making it perfect for modern interiors. Crafted from durable and lightweight materials, it's easy to move around and complements a variety of plants. The neutral color scheme allows your plants to take center stage, adding a touch of nature to your living space. Elevate your home decor with the simplicity and elegance of the Modern Minimalist Planter.",
+        "price": 32.50,
+        "image_url": "https://cdn.pixabay.com/photo/2016/11/20/08/03/cactus-1842095_960_720.jpg",
+        "image_credits": "https://pixabay.com/users/pexels-2286921/",
+        "bestseller": false
+    },
+    {
+        "product_id": "PP003",
+        "product_name": "Vintage Ceramic Delight",
+        "description": "Discover the charm of the Vintage Ceramic Delight plant pot. Made from high-quality ceramic with a vintage-inspired pattern, this pot brings a touch of nostalgia to your garden or home. The intricate details and weathered finish add character, making it a unique focal point. Suitable for a variety of plants, from lush ferns to colorful flowers, the Vintage Ceramic Delight is a conversation starter. Enhance your space with this timeless piece that seamlessly blends the old with the new.",
+        "price": 29.99,
+        "image_url": "https://cdn.pixabay.com/photo/2016/06/13/20/02/flowers-1455049_960_720.jpg",
+        "image_credits": "https://pixabay.com/users/secondtruth-2744571/",
+        "bestseller": true
+    },
+    {
+        "product_id": "PP004",
+        "product_name": "Hanging Basket Oasis",
+        "description": "Create a suspended garden with the Hanging Basket Oasis. Perfect for small spaces, this hanging plant pot adds a touch of greenery without taking up precious floor space. The durable and weather-resistant materials ensure longevity, making it suitable for both indoor and outdoor use. Showcase cascading vines or colorful flowers and let them gracefully drape from this stylish hanging basket. Bring a touch of nature to new heights with the Hanging Basket Oasis.",
+        "price": 18.75,
+        "image_url": "https://cdn.pixabay.com/photo/2015/10/01/14/48/floral-967119_960_720.jpg",
+        "image_credits": "https://pixabay.com/users/moritz320-1260270/",
+        "bestseller": false
+    },
+    {
+        "product_id": "PP005",
+        "product_name": "Bamboo Bliss Planter",
+        "description": "Immerse yourself in the tranquility of nature with the Bamboo Bliss Planter. Crafted from sustainable bamboo, this eco-friendly plant pot adds warmth and serenity to your living space. The natural textures and earthy tones create a harmonious environment for your plants to thrive. Ideal for both indoor and outdoor use, the Bamboo Bliss Planter is a conscious choice for plant lovers who appreciate the beauty of sustainable materials. Embrace nature with this elegant and environmentally friendly planter.",
+        "price": 27.99,
+        "image_url": "https://cdn.pixabay.com/photo/2023/09/05/10/00/plant-8234767_960_720.jpg",
+        "image_credits": "https://pixabay.com/users/mondgesicht-2086402/",
+        "bestseller": false
+    },
+    {
+        "product_id": "PP006",
+        "product_name": "Geometric Elegance Pot",
+        "description": "Make a statement with the Geometric Elegance Pot. This modern and stylish plant pot features a geometric design that adds a touch of sophistication to your home. Crafted from durable materials, it provides a sturdy base for your favorite plants. The clean lines and contemporary aesthetic make it a versatile choice for various decor styles. Elevate your plant display with the Geometric Elegance Pot and turn your greenery into a work of art.",
+        "price": 36.99,
+        "image_url": "https://cdn.pixabay.com/photo/2017/09/16/08/12/flowerpots-2754775_960_720.jpg",
+        "image_credits": "https://pixabay.com/users/bigplastshop-5709538/",
+        "bestseller": true
+    },
+    {
+        "product_id": "PP007",
+        "product_name": "Terra Cotta Cascade",
+        "description": "Bring a touch of classical elegance to your garden with the Terra Cotta Cascade plant pot. Crafted from traditional terra cotta, this pot features a cascading design that adds a sense of movement to your plant display. The warm tones and timeless material create a welcoming atmosphere. Suitable for a variety of plants, from vibrant flowers to cascading vines, the Terra Cotta Cascade is a beautiful addition to any outdoor space. Embrace the beauty of nature with this gracefully designed plant pot.",
+        "price": 28.50,
+        "image_url": "https://cdn.pixabay.com/photo/2016/04/22/08/54/flowerpot-1345371_960_720.jpg",
+        "image_credits": "https://pixabay.com/users/congerdesign-509903/",
+        "bestseller": true
+    },
+    {
+        "product_id": "PP008",
+        "product_name": "Rustic Woodland Planter",
+        "description": "Infuse a touch of the outdoors into your home with the Rustic Woodland Planter. Crafted from weathered wood, this planter exudes a rustic charm that complements both traditional and modern decor. The natural imperfections and textures add character, making each piece unique. Ideal for showcasing your favorite houseplants or herbs, the Rustic Woodland Planter brings the beauty of the woodland into your living space. Embrace the charm of nature with this timeless and versatile planter.",
+        "price": 21.95,
+        "image_url": "https://cdn.pixabay.com/photo/2017/07/29/00/03/flowerpot-2550315_960_720.jpg",
+        "image_credits": "https://pixabay.com/users/bigplastshop-5709538/",
+        "bestseller": false
+    }
+]

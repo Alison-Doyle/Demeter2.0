@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Demeter</title>
+    <link rel="shortcut icon" href="./../resources/favicon.ico" type="image/x-icon">
+
+    <!-- Styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./../css/universal.css">
+    <link rel="stylesheet" href="./../css/about-us.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <!-- Toggle nav button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collapsable section -->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#">Demeter</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Header action buttons -->
+            <div id="header-actions-container">
+                <button class="btn" id="cart-button"><i class="bi bi-cart"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Cart sidebar -->
+        <div id="cart-wrapper">
+            <div id="cart" class="bg-body-tertiary">
+                <div class="row mb-3">
+                    <h1 class="col-9">Cart</h1>
+                    <i class="bi bi-x-circle col-3" id="close-cart-button"></i>
+                </div>
+                <a class="btn btn-primary" style="width:100%" id="checkout-button">Checkout</a>
+                <hr>
+                <ul id="cart-item-list">
+
+                </ul>
+            </div>
+        </div>
+
+        <!-- Page title -->
+        <div class="page-header mb-3">
+            <h1 class="rounded">About Us</h1>
+        </div>
+
+        <!-- Page content -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-7">
+                    <h2>The Artist</h2>
+                    <p>
+                        Meet Amelia, the artisan behind Demeter, a haven for handcrafted plant pots in the heart of
+                        Sligo. Nestled amidst the rugged beauty of this enchanting town, Amelia draws inspiration from
+                        the rolling hills and serene landscapes that surround her. With a formal education in fine art
+                        and pottery from the National College of Art and Design (NCAD), her skills were further honed
+                        through an apprenticeship in England, where she imbibed diverse techniques and perspectives.
+                        Amelia's journey began with a passion for both art and nature, culminating in the establishment
+                        of Demeter, a small business that reflects her commitment to sustainability and aesthetics.<br><br> Each
+                        meticulously crafted piece not only showcases her technical expertise but also carries a touch
+                        of her Irish heritage. Each pot tells a story, echoing the timeless beauty of Sligo and inviting
+                        nature into homes around the world. Explore Demeter's collection and bring a piece of Sligo's
+                        charm, enriched by Amelia's artistic education and international experience, to your living
+                        space.
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-5">
+                    <img
+                        src="https://cdn.pixabay.com/photo/2021/09/06/11/10/pottery-6601435_960_720.jpg"
+                        alt="Amelia creating a pot on a potter's wheel">
+                </div>
+            </div>
+
+            <hr>
+
+            <h2>Find Demeter</h2>
+            <p>You can find Amelia working behind the counter in "The Cat and the Moon":</p>
+            <div class="map mb-3"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=4%20Castle%20St,%20Abbeyquarter%20South,%20Sligo,%20F91%20P863+(The%20Cat%20and%20the%20Moon)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                        href="https://www.maps.ie/population/">Population Estimator map</a></iframe>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div id="social-media-links-container">
+            <ul>
+                <li><a href=""><i class="bi bi-pinterest"></i></a></li>
+                <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                <li><a href=""><i class="bi bi-instagram"></i></a></li>
+            </ul>
+        </div>
+
+        <div id="footer-site-nav-container">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./about-us.html">About Us</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+<!-- Scripting -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script type="module" src="./../js/page_scripts/about.js"></script>
+</html>

@@ -1,0 +1,28 @@
+main .page-header {
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/08/00/27/home-2609600_960_720.jpg");
+}
+main #products-container {
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+main #products-container .product-card {
+  margin: 0.2rem;
+}
+main #products-container .product-card:hover {
+  cursor: pointer;
+}
+main #products-container .product-card .product-image {
+  aspect-ratio: 2/3;
+  border-radius: 1rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #products-container .product-card h2 {
+  font-size: 1.6rem;
+}
+main #products-container .product-card h3 {
+  font-size: 1.4rem;
+  opacity: 0.8;
+}/*# sourceMappingURL=shop.css.map */

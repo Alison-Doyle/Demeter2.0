@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Pridi&display=swap");
+body {
+  color: #171811 !important;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+header .navbar-brand {
+  font-family: "Pridi", sans-serif;
+}
+header nav .bg-body-tertiary {
+  background-color: #f4f5f0 !important;
+}
+
+#header-actions-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 10px;
+}
+#header-actions-container #sign-out-button {
+  color: #AF3508;
+}
+
+#cart-wrapper {
+  display: none;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+#cart-wrapper #cart {
+  height: 100vh;
+  padding: 1rem;
+  margin-top: 3.5rem;
+  width: 100%;
+}
+#cart-wrapper #cart #close-cart-button {
+  color: #AF3508;
+  font-size: 1.4rem;
+  transform: translateY(16%);
+  vertical-align: middle;
+}
+#cart-wrapper #cart #close-cart-button:hover {
+  cursor: pointer;
+}
+#cart-wrapper #cart .cart-item {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 3rem;
+  transform: translateX(-10%);
+}
+#cart-wrapper #cart .cart-item img {
+  align-self: center;
+  display: flex;
+  height: 4.2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 4.2rem;
+}
+#cart-wrapper #cart .cart-item .product-details {
+  margin-left: 1rem;
+}
+#cart-wrapper #cart .cart-item .product-details h2 {
+  font-size: 1.2rem;
+}
+#cart-wrapper #cart .cart-item .product-details input {
+  width: 80%;
+}
+#cart-wrapper #cart .cart-item .delete-item-button {
+  align-self: center;
+  display: flex;
+  height: 2.4rem;
+}
+
+@media screen and (min-width: 768px) {
+  #cart-wrapper {
+    right: 0;
+    width: 320px;
+  }
+}
+.page-header {
+  background-position: center;
+  background-size: cover;
+  border-radius: 0 0 3.2rem 3.2rem;
+  padding: 7.2rem 4rem 4rem;
+}
+.page-header h1 {
+  background-color: #f4f5f0;
+  margin: auto;
+  padding: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+footer {
+  background-color: #83a4aa;
+  border-radius: 3.2rem 3.2rem 0 0;
+  padding: 2rem;
+}
+footer #social-media-links-container {
+  margin: auto;
+  text-align: center;
+  transform: translateX(-16px);
+  width: -moz-fit-content;
+  width: fit-content;
+}
+footer #social-media-links-container li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 1rem;
+}
+footer #social-media-links-container li a {
+  color: #f4f5f0;
+  font-size: 1.6rem;
+}
+footer #footer-site-nav-container {
+  margin: auto;
+  text-align: center;
+  transform: translateX(-16px);
+  width: -moz-fit-content;
+  width: fit-content;
+}
+footer #footer-site-nav-container li {
+  list-style-type: none;
+}
+footer #footer-site-nav-container li a {
+  color: #f4f5f0;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #a6b93c;
+  border: 0;
+  color: #171811;
+}
+
+.btn-primary:hover {
+  background-color: #8A9A32 !important;
+  color: #171811;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  background-color: #7D8B2D !important;
+  color: #171811;
+}/*# sourceMappingURL=universal.css.map */

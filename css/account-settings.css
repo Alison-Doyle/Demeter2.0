@@ -1,0 +1,11 @@
+.container {
+  padding-top: 3.6rem;
+}
+.container h1 {
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.container button {
+  width: 12rem;
+}/*# sourceMappingURL=account-settings.css.map */

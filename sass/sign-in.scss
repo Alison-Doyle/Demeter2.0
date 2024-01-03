@@ -1,0 +1,38 @@
+@import "./colors.scss";
+@import url('https://fonts.googleapis.com/css2?family=Pridi&display=swap');
+
+main {
+    align-items: center;
+    background-image: url("./../resources/images/misc-images/plant-room-sm.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 100dvh;
+    justify-content: center;
+
+    @media screen and (min-width: 768px) {
+        background-image: url('./../resources/images/misc-images/plant-room-lg.jpg');
+    }
+
+    form {
+        position: absolute;
+        top: 25%;
+        max-width: 24rem;
+        width: 80%;
+
+        h2 {
+            font-family: 'Pridi', sans-serif;
+            margin: auto;
+            width: fit-content;
+        }
+
+        h1 {
+            margin: auto;
+            width: fit-content;
+        }
+    }
+}
+
+footer {
+    width: 100%;
+}

@@ -1,0 +1,36 @@
+@import './colors.scss';
+
+main {
+    .page-header {
+        background-image: url("https://cdn.pixabay.com/photo/2017/08/08/00/27/home-2609600_960_720.jpg");
+    }
+
+    #products-container {
+        margin: auto;
+        width: fit-content;
+
+        .product-card {
+            margin: 0.2rem;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            .product-image {
+                aspect-ratio: 2/3;
+                border-radius: 1rem;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            h2 {
+                font-size: 1.6rem;
+            }
+
+            h3 {
+                font-size: 1.4rem;
+                opacity: 0.8;
+            }
+        }
+    }
+}

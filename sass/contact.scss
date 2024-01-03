@@ -1,0 +1,31 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+main {
+    margin-bottom: 16rem;
+
+    p {
+        margin: auto;
+        width: fit-content;
+    }
+
+    .page-header {
+        background-image: url('https://cdn.pixabay.com/photo/2017/08/01/18/30/green-2567167_960_720.jpg');
+    }
+
+    #submit-button {
+        width: fit-content;
+        margin: auto;
+    }    
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 14rem;
+    width: 100%;
+    overflow: hidden;
+}

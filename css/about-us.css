@@ -1,0 +1,24 @@
+main .page-header {
+  background-image: url("https://cdn.pixabay.com/photo/2019/05/05/18/58/girl-4181395_960_720.jpg");
+}
+main .container h2 {
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+main .container img {
+  border-radius: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  max-height: 36rem;
+  width: 100%;
+}
+main .container .map {
+  margin: auto;
+  width: 100%;
+}
+main .container .map iframe {
+  border-radius: 1rem;
+}/*# sourceMappingURL=about-us.css.map */

@@ -1,0 +1,31 @@
+@import "./colors.scss";
+
+main {
+    .page-header {
+        background-image: url("https://cdn.pixabay.com/photo/2019/05/05/18/58/girl-4181395_960_720.jpg");
+    }
+
+    .container {
+        h2 {
+            margin: auto;
+            width: fit-content;
+        }
+
+        img {
+            border-radius: 1rem;
+            object-fit:cover;
+            object-position: center;
+            max-height: 36rem;
+            width: 100%;
+        }
+
+        .map {
+            margin: auto;
+            width: 100%;
+
+            iframe {
+                border-radius: 1rem;
+            }
+        }
+    }
+}

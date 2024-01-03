@@ -1,0 +1,175 @@
+@import './colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Pridi&display=swap');
+
+body {
+    color: $black !important;
+}
+
+// Top nav bar elements
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+
+    .navbar-brand {
+        font-family: 'Pridi', sans-serif;
+    }
+
+    nav .bg-body-tertiary {
+        background-color: $white !important;
+    }
+}
+
+#header-actions-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 10px;
+
+    #sign-out-button {
+        color: #AF3508;
+    }
+}
+
+// Cart
+#cart-wrapper {
+    display: none;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+    #cart {
+        height: 100vh;
+        padding: 1rem;
+        margin-top: 3.5rem;
+        width: 100%;
+
+        #close-cart-button {
+            color: #AF3508;
+            font-size: 1.4rem;
+            transform: translateY(16%);
+            vertical-align: middle;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            margin-bottom: 3rem;
+            transform: translateX(-10%);
+
+            img {
+                align-self: center;
+                display: flex;
+                height: 4.2rem;
+                object-fit: cover;
+                width: 4.2rem;
+            }
+
+            .product-details {
+                margin-left: 1rem;
+
+                h2 {
+                    font-size: 1.2rem;
+                }
+
+                input {
+                    width: 80%;
+                }
+            }
+
+            .delete-item-button {
+                align-self: center;
+                display: flex;
+                height: 2.4rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #cart-wrapper {
+        right: 0;
+        width: 320px;
+    }
+}
+
+// Page title
+.page-header {
+        background-position: center;
+        background-size: cover;
+        border-radius: 0 0 3.2rem 3.2rem;
+        padding: 7.2rem 4rem 4rem;
+
+        h1 {
+            background-color: $white;
+            margin: auto;
+            padding: 1rem;
+            width: fit-content;
+        }
+    }
+
+// Footer
+footer {
+    background-color: $tertiary;
+    border-radius: 3.2rem 3.2rem 0 0;
+    padding: 2rem;
+
+    #social-media-links-container {
+        margin: auto;
+        text-align: center;
+        transform: translateX(-16px);
+        width: fit-content;
+
+        li {
+            display: inline-block;
+            list-style-type: none;
+            margin: 0 1rem;
+
+            a {
+                color: $white;
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    #footer-site-nav-container {
+        margin: auto;
+        text-align: center;
+        transform: translateX(-16px);
+        width: fit-content;
+
+        li {
+            list-style-type: none;
+
+            a {
+                color: $white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+// Bootstrap overrides
+// Primary button
+.btn-primary {
+    background-color: $primary;
+    border: 0;
+    color: $black;
+}
+
+.btn-primary:hover {
+    background-color: $primary-hover !important;
+    color: $black;
+}
+
+.btn-primary:active, .btn-primary:focus {
+    background-color: $primary-active !important;
+    color: $black;
+}

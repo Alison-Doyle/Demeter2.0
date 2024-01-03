@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Demeter</title>
+    <link rel="shortcut icon" href="./../resources/favicon.ico" type="image/x-icon">
+
+    <!-- Styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./../css/universal.css">
+    <link rel="stylesheet" href="./../css/index.css">
+
+    <!-- Scripting -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <!-- Toggle nav button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collapsable section -->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="./index.html">Demeter</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Header action buttons -->
+            <div id="header-actions-container">
+                <button class="btn" id="cart-button"><i class="bi bi-cart"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Cart sidebar -->
+        <div id="cart-wrapper">
+            <div id="cart" class="bg-body-tertiary">
+                <div class="row mb-3">
+                    <h1 class="col-9">Cart</h1>
+                    <i class="bi bi-x-circle col-3" id="close-cart-button"></i>
+                </div>
+                <a class="btn btn-primary" style="width:100%" id="checkout-button">Checkout</a>
+                <hr>
+                <ul id="cart-item-list">
+
+                </ul>
+            </div>
+        </div>
+
+        <!-- Hero section -->
+        <section id="hero-section" class="container-fluid">
+            <div class="hero-content bg-body">
+                <h1>Welcome to Demeter</h1>
+                <p class="lead">Demeter is a Sligo based pottery that creates hand crafted plant pots inspired by the
+                    Irish landscape</p>
+                <div class="lead">
+                    <a class="btn btn-primary" href="./shop.html">Visit Shop</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bestsellers display -->
+        <section id="bestsellers-section">
+            <h1>Our Bestsellers</h1>
+            <div id="products-wrapper">
+                <div id="products-container">
+                </div>
+            </div>
+            <a class="btn btn-primary" href="./shop.html" id="more-products-button">View more Products</a>
+        </section>
+
+        <!-- About resources -->
+        <section id="resources-section">
+            <h1>Sourcing our Clay</h1>
+            <div class="row p-3">
+                <div class="col-md-6 col-lg-7">
+                    <div id="clay-accent-image"></div>
+                </div>
+                <div class="col-md-6 col-lg-5">
+                    <p class="pt-1">
+                        Amilie, the owner of Demeter takes great pride in its commitment to sustainability and
+                        connection with the local community.
+                        Inspired by the lush landscapes and rich heritage of Ireland, she sources clay locally to
+                        craft her exquisite plant pots. By utilizing clay from nearby regions, Demeter not only
+                        minimizes its
+                        environmental impact but also support local businesses and reduce transportation-related carbon
+                        emissions. This approach not only ensures the authenticity of the products but also fosters a
+                        sense of
+                        place and belonging in each meticulously handmade plant pot. Embracing the unique qualities of
+                        locally-sourced clay, our creations embody the essence of Irish craftsmanship, bringing a touch
+                        of the
+                        Emerald Isle's natural beauty to your home.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="social-media-links-container">
+            <ul>
+                <li><a href=""><i class="bi bi-pinterest"></i></a></li>
+                <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                <li><a href=""><i class="bi bi-instagram"></i></a></li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div id="footer-site-nav-container">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./about-us.html">About Us</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+<!-- Scripting -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script type="module" src="./../js/page_scripts/index.js"></script>
+
+</html>

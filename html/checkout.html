@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Demeter</title>
+    <link rel="shortcut icon" href="./../resources/favicon.ico" type="image/x-icon">
+
+    <!-- Styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./../css/universal.css">
+    <link rel="stylesheet" href="./../css/checkout.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <!-- Toggle nav button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collapsable section -->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="./index.html">Demeter</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Header action buttons -->
+            <div id="header-actions-container">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page header -->
+        <div class="page-header mb-3">
+            <h1 class="rounded">Checkout</h1>
+        </div>
+
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-5 col-lg-4 order-md-last">
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span>Your cart</span>
+                    </h4>
+                    <ul class="list-group mb-3" id="cart">
+                    </ul>
+                </div>
+
+                <div class="col-md-7 col-lg-8">
+                    <h4 class="mb-3">Billing address</h4>
+                    <form method="get">
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <label for="firstName" class="form-label">First name *</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="" value=""
+                                    required>
+                                <div class="invalid-feedback">
+                                    Valid first name is required.
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="lastName" class="form-label">Last name *</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="" value=""
+                                    required>
+                                <div class="invalid-feedback">
+                                    Valid last name is required.
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label for="email" class="form-label">Email *<span
+                                        class="text-body-secondary"></span></label>
+                                <input type="email" class="form-control" id="email" placeholder="you@example.com"
+                                    required>
+                                <div class="invalid-feedback">
+                                    Please enter a valid email address for shipping updates.
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label for="address" class="form-label">Address Line 1 *</label>
+                                <input type="text" class="form-control" id="address1" placeholder="1234 Main St"
+                                    required>
+                                <div class="invalid-feedback">
+                                    Please enter your shipping address.
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label for="address2" class="form-label">Address Line 2</label>
+                                <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                            </div>
+                            <div class="col-12">
+                                <label for="address2" class="form-label">City *</label>
+                                <input type="text" class="form-control" id="city" placeholder="Apartment or suite" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="country" class="form-label">County *</label>
+                                <select class="form-select" id="county" required>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select a valid country.
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="zip" class="form-label">Eircode *</label>
+                                <input type="text" class="form-control" id="eircode" placeholder="" required>
+                                <div class="invalid-feedback">
+                                    Eircode code required.
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                        <h4 class="mb-3">Payment</h4>
+                        <div class="row gy-3">
+                            <div class="col-md-12">
+                                <label for="cc-name" class="form-label">Name on card *</label>
+                                <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                                <small class="text-body-secondary">Full name as displayed on card</small>
+                                <div class="invalid-feedback">
+                                    Name on card is required
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="cc-number" class="form-label">Credit card number *</label>
+                                <input type="text" class="form-control" id="cc-number" required>
+                                <div class="invalid-feedback">
+                                    Credit card number is required
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="cc-expiration" class="form-label">Expiration *</label>
+                                <input type="text" class="form-control" id="cc-expiration" placeholder="MM/YY"
+                                    required>
+                                <div class="invalid-feedback">
+                                    Expiration date required
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="cc-cvv" class="form-label">CVV *</label>
+                                <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                                <div class="invalid-feedback">
+                                    Security code required
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                        <button class="w-100 btn btn-primary" type="submit">Checkout</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="social-media-links-container">
+            <ul>
+                <li><a href=""><i class="bi bi-pinterest"></i></a></li>
+                <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                <li><a href=""><i class="bi bi-instagram"></i></a></li>
+            </ul>
+        </div>
+
+        <div id="footer-site-nav-container">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./about-us.html">About Us</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+<!-- Scripting -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script type="module" src="./../js/page_scripts/checkout.js"></script>
+
+</html>
